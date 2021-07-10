@@ -5,7 +5,6 @@ var menu = document.getElementsByClassName("menuItem");
 var header = document.getElementsByClassName("title");
 
 function dia() {
-   window.alert("O DIA FOI DISPARADO!");
     document.body.className = "Dia";
     localStorage.setItem("dia", 1);
     localStorage.setItem("noite", 0);
