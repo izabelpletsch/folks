@@ -16,7 +16,7 @@ function dia() {
     }
 
     for ( var j=0; j<menu.length; j++ ) {
-        menu[i].style.backgroundColor = "#dfbc68";
+        menu[j].style.backgroundColor = "#dfbc68";
     }
 
 document.getElementById('imginicio').src = "https://64.media.tumblr.com/243ade404def3cf79e19c4581765848c/c9af11dd4ebcd327-2a/s1280x1920/4b1f4f228dfc28707259601c4b84c6992467afc5.jpg";
@@ -34,7 +34,7 @@ header[0].style.color = "#fff";
     }
 
     for ( var j=0; j<menu.length; j++ ) {
-        menu[i].style.backgroundColor = "#212227";
+        menu[j].style.backgroundColor = "#212227";
     }
 
 
